@@ -1,0 +1,28 @@
+.swiper {
+  width: 31rem;
+  height: auto;
+  overflow-y: visible;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-pagination{
+  transform: translate3d(12rem,2.5rem,0);
+  width: 7rem !important;
+  background-color: #1D232A;
+  border-radius: 10px;
+}
+.swiper-pagination-bullet{
+
+}
