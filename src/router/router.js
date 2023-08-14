@@ -1,4 +1,4 @@
-import { createRouter , createWebHistory } from "vue-router";
+import { createRouter , createWebHashHistory } from "vue-router";
 import Home from '../view/Home.vue'
 import Posts from '../view/Posts.vue'
 import Products from '../view/Products.vue'
@@ -14,7 +14,7 @@ const routes = [
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound }
 ]
 const router = createRouter({
-    history:createWebHistory(),
+    history:createWebHashHistory(),
     routes
 })
 export default router
